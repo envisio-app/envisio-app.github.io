@@ -11,8 +11,6 @@ export default class NavOne extends Component {
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
 
-        //Mobile Menu
-        this.mobileMenu();
     }
 
     componentWillUnmount() {
@@ -53,7 +51,10 @@ export default class NavOne extends Component {
                             <a className="navbar-brand" href="/">
                                 VISIO
                             </a>
-                             <button className="menu-toggler">
+                             <button className="menu-toggler" onClick={() => {
+                                    const mainNav = document.querySelector(".main-navigation");
+                                    mainNav.style.display = mainNav.style.display !== "block" ? "block" : "none";
+                                }}>
                                 <span className="fa fa-bars"></span>
                             </button> 
                         </div>
