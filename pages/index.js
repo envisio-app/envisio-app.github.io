@@ -19,11 +19,11 @@ import Subscribe from "../components/Subscribe";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Dimon - React Next App Landing Page Template">
+    <Layout pageTitle="VISIO">
         <NavOne />
         <Banner />
-        <Features />
-        <Video />
+         <Features />
+     {/*    <Video />
         <CallToAction />
         <CallToActionTwo />
         <Pricing />
@@ -33,8 +33,8 @@ const HomePage = () => (
         <Screenshots />
         <Faq />
         <NewsHome />
-        <Subscribe />
-        <Footer />
+        <Subscribe /> 
+        <Footer /> */}
     </Layout>
 
 )
