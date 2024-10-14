@@ -1,8 +1,8 @@
 {
   "../components/Video.js -> react-modal-video": {
-    "id": "./node_modules/react-modal-video/lib/index.js",
+    "id": 1239,
     "files": [
-      "static/chunks/node_modules_react-modal-video_lib_index_js.js"
+      "static/chunks/239.93880e86fca37eed.js"
     ]
   }
 }
