@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className="row" style={{padding: "30px"}}>
                         <div>
                             <div className="banner-one__content">
-                                <p className="banner-one__title" style={{fontStyle: "italic", fontSize: "2em"}}><span>ENVISIO</span> /envizio/</p>
+                                <p className="banner-one__title" style={{fontStyle: "italic", fontSize: "2em"}}><span>ENVISIO</span> /ɛnˈvɪziˌoʊ/</p>
                                 <h3 className="banner-one__title">Organize and enhance your <br />
                                     <span>gallery</span>.</h3>
                                 <p className="banner-one__text">
