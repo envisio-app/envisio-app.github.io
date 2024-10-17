@@ -878,6 +878,59 @@ const Features = ()=>{
                             })
                         })
                     ]
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "text-center",
+                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
+                        className: "block-title__title",
+                        style: {
+                            color: "black",
+                            fontSize: "30px",
+                            padding: "30px"
+                        },
+                        children: [
+                            "Our Advisor",
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
+                            })
+                        ]
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "row",
+                    style: {
+                        justifyContent: "center"
+                    },
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "col-lg-2 col-md-4 col-sm-12 wow fadeInUp",
+                        "data-wow-duration": "1500ms",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "service-one__single text-center",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "service-one__inner",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                        src: "/assets/images/hamdidibeklioglu.jpg",
+                                        className: "service-one__icon dimon-icon-laptop",
+                                        style: {
+                                            objectFit: "cover",
+                                            backgroundImage: 'linear-gradient(40deg, rgb(57, 174, 255) 0%, rgb(60, 255, 83) 100%)',
+                                            boxShadow: "0px 20px 40px 0px rgba(57, 174, 255, 0.8))"
+                                        }
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                                            href: "#",
+                                            children: [
+                                                "Asst. Prof. Hamdi Dibeklioğlu",
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
+                                                })
+                                            ]
+                                        })
+                                    })
+                                ]
+                            })
+                        })
+                    })
                 })
             ]
         })

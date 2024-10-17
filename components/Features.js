@@ -69,6 +69,24 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="text-center">
+                        <h2 className="block-title__title" style={{color: "black", fontSize:"30px", padding: "30px"}}>Our Advisor<br />
+                        </h2>
+                    </div>
+                    <div className="row" style={{justifyContent:"center"}}>
+                        <div className="col-lg-2 col-md-4 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
+                            <div className="service-one__single text-center">
+                                <div className="service-one__inner">
+                                    <img src="/assets/images/hamdidibeklioglu.jpg" className="service-one__icon dimon-icon-laptop" style={{objectFit:"cover", 
+                                        backgroundImage: 'linear-gradient(40deg, rgb(57, 174, 255) 0%, rgb(60, 255, 83) 100%)', boxShadow:"0px 20px 40px 0px rgba(57, 174, 255, 0.8))"
+                                    }}></img>
+                                    <h3><a href="#">Asst. Prof. Hamdi Dibeklioğlu<br /></a></h3>
+                                   {/*  <p>Lorem ipsum is are <br /> many variations of <br /> pass of majority.</p> 
+                                    <a href="#" className="service-one__link"><i className="dimon-icon-right-arrow"></i></a>*/}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         )

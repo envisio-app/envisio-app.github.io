@@ -49,7 +49,7 @@ export default class NavOne extends Component {
                     <div className="container clearfix">
                         <div className="logo-box clearfix">
                             <a className="navbar-brand" href="/">
-                                VISIO
+                                ENVISIO
                             </a>
                              <button className="menu-toggler" onClick={() => {
                                     const mainNav = document.querySelector(".main-navigation");
@@ -62,11 +62,9 @@ export default class NavOne extends Component {
                             <ul className=" one-page-scroll-menu navigation-box">
                                 <li className="scrollToLink">
                                     <a href="#">Home</a>
-
                                 </li>
                                  <li className="scrollToLink">
                                     <a href="#features">About Us</a>
-
                                 </li>
                                {/* <li className="scrollToLink">
                                     <a href="#video">Video</a>

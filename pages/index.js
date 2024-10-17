@@ -19,7 +19,7 @@ import Subscribe from "../components/Subscribe";
 
 const HomePage = () => (
 
-    <Layout pageTitle="VISIO">
+    <Layout pageTitle="ENVISIO">
         <NavOne />
         <Banner />
          <Features />
