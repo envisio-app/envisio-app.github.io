@@ -1,0 +1,32 @@
+{
+  "name": "dimon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "deploy": "npm run build && gh-pages -d out -b deployment"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.7",
+    "@mui/material": "^6.1.7",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-countup": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-id-swiper": "^4.0.0",
+    "react-modal-video": "^1.2.8",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.79.5",
+    "swiper": "5.4.5"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "3.9.2",
+    "gh-pages": "^6.2.0",
+    "url-loader": "^4.1.1"
+  },
+  "homepage": "https://envisio-app.github.io/"
+
+}
