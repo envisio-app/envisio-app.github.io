@@ -142,10 +142,6 @@
         box-shadow: none !important;
     }
 
-    .header-navigation .navigation-box>li>.sub-menu>li>a::after {
-        display: none;
-    }
-
     .header-navigation ul.navigation-box>li+li {
         padding: 0 !important;
         border-top: 1px solid rgba(255, 255, 255, .1);
