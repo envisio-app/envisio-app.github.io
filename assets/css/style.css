@@ -2200,6 +2200,8 @@ a:visited {
 .fact-one__text h3 {
   line-height: 1.6;
   letter-spacing: 0.01em;
+  max-width: 140px;
+
 }
 
 
