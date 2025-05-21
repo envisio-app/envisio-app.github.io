@@ -2151,9 +2151,15 @@ a:visited {
   position: relative;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .fact-one {
+    height: 150vh;
+  }
+}
+
 .fact-one .container {
   z-index: 10;
   position: relative;
@@ -2231,10 +2237,9 @@ a:visited {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem; /* Space between columns */
 }
 .fact-one .col-lg-4 {
-  max-width: 320px; /* Limit the width of each column */
+  max-width: 300px; /* Limit the width of each column */
   flex: 0 0 auto; /* Prevent columns from stretching */
 }
 
