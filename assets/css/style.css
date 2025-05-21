@@ -2183,6 +2183,14 @@ a:visited {
   position: relative;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  margin: 0 auto; /* centers the whole circle */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .fact-one__single:hover{
     transform: scale(1.1);
