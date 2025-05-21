@@ -2191,9 +2191,18 @@ a:visited {
     cursor: pointer;
 }
 
-.fact-one__text{
+.fact-one__text {
   text-align: center;
+  max-width: 140px;
+  font-weight: 800;
 }
+.fact-one__text p,
+.fact-one__text h3 {
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+
+
 
 .fact-one__single:before {
   content: '';
